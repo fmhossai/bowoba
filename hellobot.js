@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const pre = "!";
 const attach1 = new Discord.Attachment("http://66.media.tumblr.com/65c6bcb9e9547ed07a4042cae90ed930/tumblr_nnve4qxwHr1takspwo2_540.gif")
 const request = require("request")
+const discordtoken;
 
 request({
 	url:"https://pixabay.com/api/?key=13218092-ba62fb107e3a4e473c2dd61af&q=cats&image_type=photo&pretty=true",
@@ -57,5 +58,5 @@ function main(data){
 		
 	
 	})
-	client.login("NjA4MTQwOTE4NTQ1MTg2ODQ4.XUj1sg.UHBEO4Hx6CD_o8dvj728hL20DTQ");
+	client.login(discordtoken);
 }
