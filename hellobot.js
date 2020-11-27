@@ -20,7 +20,8 @@ client.on("message",function(message){
 		if (message.content === 'what is my avatar') {
 			// Send the user's avatar URL
 			message.reply(message.author.avatarURL);
-		  }	
+		  }
+		  console.log("HELLO")	
 	
 	})
 client.login(config.token);
