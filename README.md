@@ -1,8 +1,8 @@
 create a config.json with the following settings
 
-'''json
+```json
 {
     "prefix": "b!",
     "token" : "insert Discord Bot token here"
 }
-'''
+```
