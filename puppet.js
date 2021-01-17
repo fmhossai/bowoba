@@ -27,7 +27,7 @@ async function meow(){
     console.log(`Score is ${score}`)
     console.log(`KDA is ${kda}`)
 
-    // browser.close()
+    browser.close()
 }
 
 meow()
